@@ -1,5 +1,4 @@
 package Practice1;
-
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 
@@ -36,7 +35,7 @@ public class ThreadTest {
         //线程执行体
         public void run() {
             for ( i=0 ; i <10 ; i++) {
-                System.out.println(Thread.currentThread().getName()+"-Mythread1-"+i);
+                System.out.println(Thread.currentThread().getName()+"-Mythread1-"+i);//返回当前正在执行的线程
             }
         }
     }
